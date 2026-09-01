@@ -1,0 +1,18 @@
+Package: fuzR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 3.5)
+LazyData: true
+Suggests: ade4
+Imports: raster
+Config/roxygen2/version: 8.0.0
+NeedsCompilation: no
+Packaged: 2026-09-01 13:39:04 UTC; olivier
+Author: First Last [aut, cre]
+Maintainer: First Last <first.last@example.com>

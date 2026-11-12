@@ -1,18 +1,19 @@
 Package: fuzR
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: fuzR: an R package providing biological trait data and utilities for marine benthic ecology
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Olivier", family = "Beauchard", email = "olivier.beauchard@nioz.nl", role = c("aut", "cre")),
+    person(given = "Karline", family = "Soetaert", role = "ctb")
+    )
+Description: Global trait data base for marine benthic ecology and associated utilities for fuzzy trait data
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-Depends: R (>= 3.5)
+Depends: 
+    R (>= 3.5)
 LazyData: true
-Suggests: ade4
-Imports: raster
+Suggests: 
+    ade4
+Imports: 
+    raster
 Config/roxygen2/version: 8.0.0
-NeedsCompilation: no
-Packaged: 2026-11-07 17:51:45 UTC; olivier
-Author: First Last [aut, cre]
-Maintainer: First Last <first.last@example.com>

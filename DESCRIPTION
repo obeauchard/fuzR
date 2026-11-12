@@ -1,0 +1,19 @@
+Package: fuzR
+Title: fuzR: an R package providing biological trait data and utilities for marine benthic ecology
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Olivier", family = "Beauchard", email = "olivier.beauchard@nioz.nl", role = c("aut", "cre")),
+    person(given = "Karline", family = "Soetaert", role = "ctb")
+    )
+Description: Global trait data base for marine benthic ecology and associated utilities for fuzzy trait data
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    ade4
+Imports: 
+    raster
+Config/roxygen2/version: 8.0.0
